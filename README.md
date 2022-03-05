@@ -1,6 +1,6 @@
 # Open-Chat-Bot
 
-The chat bot will be featured on [OPEN-Community's website](https://upes-open.org/), where it will provide visitors the necessary information about the OPEN-Community and it's mission and purpose. It would respond to the visitor's questions, help them navigate through the website, inform them about the upcoming events and registration and would give a short description about each project
+The chatbot will be featured on [OPEN-Community's website](https://upes-open.org/), where it will provide visitors the necessary information about the OPEN-Community, its mission, and purpose. It would respond to the visitor's questions, help them navigate through the website, inform them about the upcoming events and registration, and would give a short description of each project. It would have set answers to predefined questions and would be able to answer it even if the questions asked slightly resembles the predefined questions.
 
 ## Tech Stack
 
