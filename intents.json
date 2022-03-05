@@ -10,7 +10,7 @@
         "Good day"
       ],
       "responses": [
-        "Hello, thanks for visiting",
+        
         "Good to see you again",
         "Hi there, how can I help?"
       ],
@@ -21,14 +21,16 @@
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
         "See you later, thanks for visiting",
+        "Thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back again soon.",
+        "Thanks for helping"
       ]
     },
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Is there anything I can assist you?"]
     },
     {
       "tag": "hours",
@@ -54,6 +56,42 @@
         "We accept most major credit cards"
       ]
     },
+
+    {
+      "tag": "Assistance",
+      "patterns": [
+        "I need help",
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. \n Thank you!! "       
+      ]
+    },
+{    "tag": "noanswer",
+    "patterns": [],
+    "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+    ]
+  },
+
+  {
+    "tag": "appreciate",
+    "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+    ],
+    "responses": [
+        "Thank you!"
+    ]
+},
     {
       "tag": "opentoday",
       "patterns": [
