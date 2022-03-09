@@ -41,7 +41,41 @@
       ],
       "responses": [
         "We're open every day 9am-9pm",
-        "Our hours are 9am-9pm every day"
+        "Our working hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "open source",
+      "pattterns": [
+        "What is Open Source?",
+        "Open Source"
+      ],
+      "responses": [
+        "Open Source gives you a platform where people willingly contribute to a project to make it more efficient and better.",
+        "Open Source provides oppurtunity to learn new technologies and evolve."
+      ]
+    },
+    {
+      "tag": "Why Open source?",
+      "patterns": [
+        "Why should I do Open Source?",
+        "Benefits of Open Source"
+      ],
+      "responses": [
+        "Open Source let's you explore your interests",
+        "Open Source can help you build your skills and network",
+        "Contributing to Open Source organizations can provide you industry level exposure"
+      ]
+    },
+    {
+      "tag": "How Open Source",
+      "patterns": [
+        "How to contribute to Open Source?",
+        "Where to contribute to Open Source?"
+      ],
+      "responses": [
+        "You can start getting involved with an organization like OPEN COMMUNITY",
+        "Check OPEN COMMUNITY's GitHub: https://github.com/upes-open" 
       ]
     },
     {
