@@ -9,14 +9,14 @@ The chatbot will be featured on [OPEN-Community's website](https://upes-open.org
 ## Intents
 
 - Hi
-- Tell me about OPEN community
-- What is open source
-- Tell me about your projects
-- how can i contribute
-- how can i register/join
-- events
-- contact
-- team
+- Tell me about OPEN community.
+- What is open source?
+- Tell me about projects.
+- How can I contribute to OPEN SOURCE?
+- How can I register/join?
+- Events
+- Contact
+- Team
 - GitHub
 
 ## To do
