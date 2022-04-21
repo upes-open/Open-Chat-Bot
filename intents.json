@@ -79,19 +79,6 @@
       ]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and AMEX",
-        "We accept most major credit cards"
-      ]
-    },
-
-    {
       "tag": "Assistance",
       "patterns": [
         "I need help",
