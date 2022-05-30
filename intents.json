@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Thanks for Visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Thanks for helping"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Is there anything I can assist you?"]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What hours are you open?",
+        "What are your hours?",
+        "When are you open?"
+      ],
+      "responses": [
+        "We're open every day 9am-9pm",
+        "Our working hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "Open Source",
+      "patterns": [
+        "What is Open Source?",
+        "Open Source"
+      ],
+      "responses": [
+        "Open Source gives you a platform where people willingly contribute to a project to make it more efficient and better.",
+        "Open Source provides oppurtunity to learn new technologies and evolve."
+      ]
+    },
+    {
+      "tag": "Why Open source?",
+      "patterns": [
+        "Why should I do Open Source?",
+        "Benefits of Open Source"
+      ],
+      "responses": [
+        "Open Source let's you explore your interests",
+        "Open Source can help you build your skills and network",
+        "Contributing to Open Source organizations can provide you industry level exposure"
+      ]
+    },
+    {
+      "tag": "Why Open Source",
+      "patterns": [
+        "How to contribute to Open Source?",
+        "Where to contribute in Open Source?"
+      ],
+      "responses": [
+        "You can start getting involved with an organization like OPEN COMMUNITY",
+        "Check OPEN COMMUNITY's GitHub: https://github.com/upes-open" 
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Do you accept cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and AMEX.",
+        "We accept most major credit cards."
+      ]
+    },
+
+    {
+      "tag": "Assistance",
+      "patterns": [
+        "I need help",
+        "How you could help me?",
+        "What you can do?",
+        "What help do you provide?",
+        "How you can be helpful?",
+        "What support is offered?"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. \n Thank you!! "       
+      ]
+    },
+{    "tag": "noanswer",
+    "patterns": [],
+    "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+    ]
+  },
+
+  {
+    "tag": "Appreciate",
+    "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+    ],
+    "responses": [
+        "Thank you!"
+    ]
+},
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Are you open today?",
+        "When do you open today?",
+        "What are your hours today?"
+      ],
+      "responses": [
+        "We're open every day from 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "open-projects",
+      "patterns": [
+        "What are the major projects of OPEN community?",
+        "Tell me about your projects",
+        "What are your projects?"
+      ],
+      "responses": [
+        "OPEN is an initiative started with the aim of contributing to the Open Source community. Some of our major projects are: Auto-Infirmary, Docker- guide and many more.",
+        "Some of our major projects are: Auto-Infirmary, Docker-guide and many more. Read more about them here: https://upes-open.org/projects",
+        "Auto-infirmary, Docker guide, Gopherlab and many more"
+      ]
+    }
+  ]
+}
